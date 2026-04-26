@@ -1,4 +1,4 @@
-
+﻿
 import { useRef, useState, useEffect } from 'react'
 import { cn } from './lib/utils'
 import { motion, AnimatePresence, useInView, useScroll, useTransform } from 'framer-motion'
@@ -117,7 +117,7 @@ function Toast({ message, type = 'success', onClose }) {
 const navLinks = [
   { label: 'Accueil', href: '#accueil' },
   {
-    label: 'Chambres', href: '#chambres', children: [
+    label: "Chambres', href: '#chambres", children: [
       { label: 'Suite Prestige King', href: '#chambres' },
       { label: 'Chambre Double Confort', href: '#chambres' },
     ]
@@ -634,7 +634,7 @@ const testimonials = [
     name: 'François B.',
     location: 'Montréal, QC',
     avatar: 'https://mdceqvjsrzkvnrigaili.supabase.co/storage/v1/object/public/site-assets/AubergeKamouraska/159331194893633629.cc/1',
-    text: 'Idéal pour une pause sur la route. Accès facile depuis l'A-20, stationnement pour notre remorque sans problème. On y retourne l'hiver pour la motoneige!',
+    text: "Idéal pour une pause sur la route. Accès facile depuis l'A-20, stationnement pour notre remorque sans problème. On y retourne l'hiver pour la motoneige!",
     rating: 5,
   },
   {
@@ -713,7 +713,7 @@ const activities = [
   {
     icon: Wind,
     title: 'Motoneige & Plein Air',
-    description: 'Le sentier 557 part à proximité de l\'auberge. Explorez les vastes réseaux de la FCMQ pour des aventures hivernales inoubliables.',
+    description: "Le sentier 557 part à proximité de l\'auberge. Explorez les vastes réseaux de la FCMQ pour des aventures hivernales inoubliables.",
     color: '#2c5f2e',
   },
   {
